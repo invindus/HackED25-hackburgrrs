@@ -1,0 +1,15 @@
+# Ignore Node.js dependencies
+node_modules/
+npm-debug.log
+
+# Ignore React build files
+frontend/build/
+
+# Ignore Python virtual environment
+venv/
+*.pyc
+__pycache__/
+
+# Ignore IDE files
+.vscode/
+.DS_Store
