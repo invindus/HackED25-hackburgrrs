@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import SearchForm from "./components/SearchForm";
 
 function App() {
   const [message, setMessage] = useState("");
@@ -12,9 +13,9 @@ function App() {
 
   return (
     <div>
-      <h1>Flask + React</h1>
-      <p>{message}</p>
-    </div>
+      <h1>Recipe Search based from Ingredients on hand</h1>
+      <SearchForm />
+  </div>
   );
 }
 
